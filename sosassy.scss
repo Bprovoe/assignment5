@@ -1,0 +1,15 @@
+
+@import "_anothersassysheet";
+$maincolor: blue;
+$listofchris: "Chris Pratt", "Chris Evans", "Chris Pine", "Chris Hemsworth";
+li{
+  
+  content:$listofchris;
+}
+
+body {
+background-color: $maincolor;
+
+}
+
+/*# sourceMappingURL=sosassy.css.map */

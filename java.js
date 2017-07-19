@@ -4,10 +4,6 @@ const londonURL = "api.openweathermap.org/data/2.5/weather?lat=51.5074&lon=.1278
 const seattleURL = "api.openweathermap.org/data/2.5/weather?lat=47.6762&lon=-122.3182&APPID=44551767d60d8f877f1744067c0c7a45"
 
 
-
-
-
-
 function getSeattle (){
 let request = new XMLHttpRequest()
 
@@ -61,6 +57,29 @@ Geolocation.getCurrentPosition() {
     timeout: 5000,
     maximumAge: 0
   };
+
+const mapUPI = ""
+
+
+
+let request = new XMLHttpRequest()
+request.open("GET", mapUPI, true)
+request.onload = onloadFunc
+request.error = onloadFunc
+request.send()
+
+function onloadFunc(){
+console.log(JSON.parsel(request.response));
+if (response.results.length > 0){
+  document.getElementByID("weatherbox".InnerHTML) = response.results[0].formatted_address
+
+}
+}
+
+function onerrorfunction (){
+
+  console.log("oh no!");
+}
 
   function success(pos) {
     var crd = pos.coords;

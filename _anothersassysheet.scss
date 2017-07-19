@@ -1,0 +1,13 @@
+$othercolor: black;
+$buttoncolor: pink;
+
+button:hover {
+
+  color: $buttoncolor;
+}
+
+.buttonform {
+width: 50%;
+margin: auto;
+  background-color: $othercolor;
+}

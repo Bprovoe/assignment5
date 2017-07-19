@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,YAAa;EAEX,KAAK,EAJO,IAAI;;AAOlB,WAAY;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACV,gBAAgB,EAXL,KAAK",
+"sources": ["anothersassysheet.scss"],
+"names": [],
+"file": "anothersassysheet.css"
+}
